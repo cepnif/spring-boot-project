@@ -1,2 +1,5 @@
-package interfaces;public interface Course {
+package interfaces;
+
+public interface Course {
+    void getTeachingHours();
 }

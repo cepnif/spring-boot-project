@@ -12,3 +12,4 @@ public class Java implements Course {
         System.out.println("Java teaching hours: 13");
     }
 }
+

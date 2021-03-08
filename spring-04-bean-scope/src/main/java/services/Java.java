@@ -7,12 +7,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Java implements Course {
-
-    private OfficeHours officeHours;
-
     @Override
     public void getTeachingHours() {
-        System.out.println("Java teaching hours: "
-                + (23 + officeHours.getHours()));
+        System.out.println("Java teaching hours: 13");
     }
 }
