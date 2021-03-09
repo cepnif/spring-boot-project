@@ -1,2 +1,5 @@
-package interfaces;public interface ExtraSessions {
+package interfaces;
+
+public interface ExtraSessions {
+    int getHours();
 }

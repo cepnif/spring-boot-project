@@ -4,7 +4,7 @@ import interfaces.Course;
 
 public class Java implements Course {
 
-    OfficeHours officeHours;
+    private OfficeHours officeHours;
 
     public Java(OfficeHours officeHours) {
         this.officeHours = officeHours;

@@ -6,8 +6,6 @@ import lombok.Setter;
 import org.springframework.stereotype.Component;
 
 @Component
-@Getter
-@Setter
 public class Java implements Course {
     @Override
     public void getTeachingHours() {
